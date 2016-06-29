@@ -1,0 +1,57 @@
+
+.wrapper {
+  width: 80%;
+  margin: 2em auto;
+}
+
+
+
+
+.button {
+    display: inline-block;
+    border: 4px outset  black;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    background-color: skyblue;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+.button:hover {                                          /* style all buttons for hover */
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.button:active {                            /* style all buttons active */
+    position: relative;
+    top: 5px;
+    border: 2px solid white;
+}
+
+
+.button-sm {
+    font-size: 70%;
+}
+
+.button-md {
+    font-size: 100%;
+}
+
+.button-lg {
+    font-size: 150%;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+.footer {
+    position: relative;
+    top: 40px;
+    left: 50%;
+    padding: 4px;
+    border: 2px solid black;
+}
